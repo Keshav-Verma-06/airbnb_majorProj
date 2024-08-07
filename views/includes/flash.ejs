@@ -1,0 +1,15 @@
+<% if (success && success.length) { %>
+<div class="alert alert-success alert-dismissible fade show col-6 offset-3" role="alert">
+    <%= success %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<% } %>
+
+<% if (error && error.length) { %>
+<div class="alert alert-warning alert-dismissible fade show d-flex align-items-center col-6 offset-3" role="alert">
+    <div><i class="fas fa-exclamation-triangle"></i>
+        &nbsp;&nbsp;<%= error %></div>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<% } %>
+  

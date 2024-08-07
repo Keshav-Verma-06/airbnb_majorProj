@@ -1,0 +1,124 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Nav Bar */
+.navbar {
+    height: 5rem;
+    background-color: white !important;
+}
+.container-fluid {
+    background-color: white !important;
+}
+.fa-compass {
+    color: rgba(234, 62, 62, 0.899);
+    font-size: 2rem;
+}
+.nav-link {
+    color: #222222 !important;
+    font-weight: 500 !important;
+}   
+
+/* Footer */
+.f-info-links a {
+    text-decoration: none !important;
+    color: #222222 !important;
+}
+.f-info-links a:hover {
+    text-decoration: underline !important;
+}
+.f-info-brand:hover {
+    text-decoration: underline !important;
+}
+.f-info-links,.f-info-socials,.f-info-brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-socials i {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.f-info-socials i:hover {
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.f-info {
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* Cards */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.listing-card, .show-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body {
+    padding: 0;
+}
+.card-text p {
+    font-weight: 400;
+}
+.listing-link {
+    text-decoration: none;
+}
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+.add-btn, .edit-btn {
+    background-color: #fe424d !important;
+}
+
+/* show page */
+.show-img {
+    height: 30vh;
+}
+.btns {
+    display: flex;
+}
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 100% !important;
+    }
+}
+
+/* map */
+#map {
+    height: 50vh;
+    width: 100%;
+}
